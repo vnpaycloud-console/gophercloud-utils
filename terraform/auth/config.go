@@ -8,13 +8,13 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/openstack"
-	"github.com/gophercloud/gophercloud/v2/openstack/objectstorage/v1/swauth"
-	osClient "github.com/gophercloud/utils/v2/client"
-	"github.com/gophercloud/utils/v2/internal"
-	"github.com/gophercloud/utils/v2/openstack/clientconfig"
-	"github.com/gophercloud/utils/v2/terraform/mutexkv"
+	osClient "github.com/vnpaycloud-console/gophercloud-utils/v2/client"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/internal"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/openstack/clientconfig"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/terraform/mutexkv"
+	"github.com/vnpaycloud-console/gophercloud/v2"
+	"github.com/vnpaycloud-console/gophercloud/v2/openstack"
+	"github.com/vnpaycloud-console/gophercloud/v2/openstack/objectstorage/v1/swauth"
 )
 
 type Config struct {

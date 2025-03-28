@@ -3,8 +3,8 @@ package sharetypes
 import (
 	"context"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/openstack/sharedfilesystems/v2/sharetypes"
+	"github.com/vnpaycloud-console/gophercloud/v2"
+	"github.com/vnpaycloud-console/gophercloud/v2/openstack/sharedfilesystems/v2/sharetypes"
 )
 
 // IDFromName is a convenience function that returns a share type's ID given

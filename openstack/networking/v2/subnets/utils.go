@@ -3,8 +3,8 @@ package subnets
 import (
 	"context"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/subnets"
+	"github.com/vnpaycloud-console/gophercloud/v2"
+	"github.com/vnpaycloud-console/gophercloud/v2/openstack/networking/v2/subnets"
 )
 
 // IDFromName is a convenience function that returns a subnet's ID given its

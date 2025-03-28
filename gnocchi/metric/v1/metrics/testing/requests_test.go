@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/v2/pagination"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
-	"github.com/gophercloud/utils/v2/gnocchi/metric/v1/archivepolicies"
-	"github.com/gophercloud/utils/v2/gnocchi/metric/v1/metrics"
-	"github.com/gophercloud/utils/v2/gnocchi/metric/v1/resources"
-	fake "github.com/gophercloud/utils/v2/gnocchi/testhelper/client"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/gnocchi/metric/v1/archivepolicies"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/gnocchi/metric/v1/metrics"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/gnocchi/metric/v1/resources"
+	fake "github.com/vnpaycloud-console/gophercloud-utils/v2/gnocchi/testhelper/client"
+	"github.com/vnpaycloud-console/gophercloud/v2/pagination"
+	th "github.com/vnpaycloud-console/gophercloud/v2/testhelper"
 )
 
 func TestList(t *testing.T) {

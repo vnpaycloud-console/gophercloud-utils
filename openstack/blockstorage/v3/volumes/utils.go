@@ -3,8 +3,8 @@ package volumes
 import (
 	"context"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/openstack/blockstorage/v3/volumes"
+	"github.com/vnpaycloud-console/gophercloud/v2"
+	"github.com/vnpaycloud-console/gophercloud/v2/openstack/blockstorage/v3/volumes"
 )
 
 // IDFromName is a convenience function that returns a volume's ID given its

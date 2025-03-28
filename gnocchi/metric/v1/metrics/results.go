@@ -1,10 +1,10 @@
 package metrics
 
 import (
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/pagination"
-	"github.com/gophercloud/utils/v2/gnocchi/metric/v1/archivepolicies"
-	"github.com/gophercloud/utils/v2/gnocchi/metric/v1/resources"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/gnocchi/metric/v1/archivepolicies"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/gnocchi/metric/v1/resources"
+	"github.com/vnpaycloud-console/gophercloud/v2"
+	"github.com/vnpaycloud-console/gophercloud/v2/pagination"
 )
 
 type commonResult struct {

@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/openstack"
-	"github.com/gophercloud/utils/v2/env"
-	"github.com/gophercloud/utils/v2/gnocchi"
-	"github.com/gophercloud/utils/v2/internal"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/env"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/gnocchi"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/internal"
+	"github.com/vnpaycloud-console/gophercloud/v2"
+	"github.com/vnpaycloud-console/gophercloud/v2/openstack"
 
 	"github.com/gofrs/uuid/v5"
 

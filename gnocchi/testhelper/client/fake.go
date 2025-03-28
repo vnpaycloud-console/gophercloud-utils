@@ -1,8 +1,8 @@
 package client
 
 import (
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/testhelper/client"
+	"github.com/vnpaycloud-console/gophercloud/v2"
+	"github.com/vnpaycloud-console/gophercloud/v2/testhelper/client"
 )
 
 // TokenID is a fake Identity service token.

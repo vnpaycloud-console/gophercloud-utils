@@ -1,8 +1,8 @@
 package testing
 
 import (
-	"github.com/gophercloud/utils/v2/gnocchi/metric/v1/archivepolicies"
-	"github.com/gophercloud/utils/v2/gnocchi/metric/v1/metrics"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/gnocchi/metric/v1/archivepolicies"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/gnocchi/metric/v1/metrics"
 )
 
 // MetricsListResult represents a raw server response from a server to a list call.

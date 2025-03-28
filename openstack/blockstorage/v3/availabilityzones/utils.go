@@ -3,8 +3,8 @@ package availabilityzones
 import (
 	"context"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/openstack/blockstorage/v3/availabilityzones"
+	"github.com/vnpaycloud-console/gophercloud/v2"
+	"github.com/vnpaycloud-console/gophercloud/v2/openstack/blockstorage/v3/availabilityzones"
 )
 
 // ListAvailableAvailabilityZones is a convenience function that return a slice of available Availability Zones.

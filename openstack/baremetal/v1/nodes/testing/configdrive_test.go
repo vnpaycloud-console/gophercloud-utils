@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
-	"github.com/gophercloud/utils/v2/openstack/baremetal/v1/nodes"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/openstack/baremetal/v1/nodes"
+	th "github.com/vnpaycloud-console/gophercloud/v2/testhelper"
 )
 
 func TestUserDataFromMap(t *testing.T) {

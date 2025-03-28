@@ -3,8 +3,8 @@ package ports
 import (
 	"context"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/ports"
+	"github.com/vnpaycloud-console/gophercloud/v2"
+	"github.com/vnpaycloud-console/gophercloud/v2/openstack/networking/v2/ports"
 )
 
 // IDFromName is a convenience function that returns a port's ID given its

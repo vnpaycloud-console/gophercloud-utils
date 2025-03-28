@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	o "github.com/gophercloud/gophercloud/v2/openstack/objectstorage/v1/objects"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
-	fake "github.com/gophercloud/gophercloud/v2/testhelper/client"
-	"github.com/gophercloud/utils/v2/openstack/objectstorage/v1/objects"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/openstack/objectstorage/v1/objects"
+	o "github.com/vnpaycloud-console/gophercloud/v2/openstack/objectstorage/v1/objects"
+	th "github.com/vnpaycloud-console/gophercloud/v2/testhelper"
+	fake "github.com/vnpaycloud-console/gophercloud/v2/testhelper/client"
 )
 
 func TestIsIdentical(t *testing.T) {

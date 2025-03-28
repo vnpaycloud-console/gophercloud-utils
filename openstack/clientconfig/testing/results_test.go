@@ -3,9 +3,9 @@ package testing
 import (
 	"testing"
 
-	"github.com/gophercloud/utils/v2/openstack/clientconfig"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/openstack/clientconfig"
 
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	th "github.com/vnpaycloud-console/gophercloud/v2/testhelper"
 	yaml "gopkg.in/yaml.v3"
 )
 

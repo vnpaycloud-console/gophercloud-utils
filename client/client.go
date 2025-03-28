@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gophercloud/gophercloud/v2"
+	"github.com/vnpaycloud-console/gophercloud/v2"
 )
 
 // Logger is an interface representing the Logger struct

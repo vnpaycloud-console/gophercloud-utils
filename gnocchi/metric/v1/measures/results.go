@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gophercloud/utils/v2/gnocchi"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/gnocchi"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/pagination"
+	"github.com/vnpaycloud-console/gophercloud/v2"
+	"github.com/vnpaycloud-console/gophercloud/v2/pagination"
 )
 
 // CreateResult represents the result of a create operation. Call its

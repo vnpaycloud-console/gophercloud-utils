@@ -3,8 +3,8 @@ package shares
 import (
 	"context"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/openstack/sharedfilesystems/v2/shares"
+	"github.com/vnpaycloud-console/gophercloud/v2"
+	"github.com/vnpaycloud-console/gophercloud/v2/openstack/sharedfilesystems/v2/shares"
 )
 
 // IDFromName is a convenience function that returns a share's ID given its

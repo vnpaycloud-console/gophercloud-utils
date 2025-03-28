@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/openstack/objectstorage/v1/containers"
-	"github.com/gophercloud/gophercloud/v2/openstack/objectstorage/v1/objects"
+	"github.com/vnpaycloud-console/gophercloud/v2"
+	"github.com/vnpaycloud-console/gophercloud/v2/openstack/objectstorage/v1/containers"
+	"github.com/vnpaycloud-console/gophercloud/v2/openstack/objectstorage/v1/objects"
 )
 
 // UploadOpts represents options used for uploading an object.

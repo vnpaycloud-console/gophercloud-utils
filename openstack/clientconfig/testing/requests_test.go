@@ -6,10 +6,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/utils/v2/openstack/clientconfig"
+	"github.com/vnpaycloud-console/gophercloud-utils/v2/openstack/clientconfig"
+	"github.com/vnpaycloud-console/gophercloud/v2"
 
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	th "github.com/vnpaycloud-console/gophercloud/v2/testhelper"
 	yaml "gopkg.in/yaml.v3"
 )
 
